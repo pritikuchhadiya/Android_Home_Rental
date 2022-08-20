@@ -14,6 +14,10 @@
         android:title="NOTIFICATIONS"
         />
     <item
+        android:id="@+id/payrent"
+        android:title="Pay Rent"
+        />
+    <item
         android:id="@+id/settingsSN"
         android:title="SETTINGS"
         />

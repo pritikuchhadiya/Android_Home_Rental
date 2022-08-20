@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".confirmRent"></activity>
+        <activity
+            android:name=".PayRent"
+            android:exported="false" />
+        <activity android:name=".confirmRent" />
         <activity android:name=".chnagePassword" />
         <activity android:name=".HomeDetails" />
         <activity android:name=".SearchResults" />

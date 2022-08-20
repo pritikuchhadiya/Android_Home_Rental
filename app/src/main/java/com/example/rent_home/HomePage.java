@@ -154,6 +154,12 @@ public class HomePage extends AppCompatActivity {
                         startActivity(intent3);
 
                         break;
+
+                    case R.id.payrent:
+                        Intent intent9 = new Intent(HomePage.this, Settings.class);
+                        startActivity(intent9);
+
+                        break;
                     case R.id.exitSN:
                         Toast.makeText(getApplicationContext(), "Exit", Toast.LENGTH_LONG).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
