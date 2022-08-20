@@ -25,9 +25,8 @@ import java.util.HashMap;
 
 public class confirmRent extends AppCompatActivity {
 
-
     private EditText cName,cAddress,cNo;
-    private ImageButton confirm,payment;
+    private ImageButton confirm;
     String saveCurrentDate;
     String saveCurrentTime;
     FirebaseAuth mAuth;
@@ -42,17 +41,6 @@ public class confirmRent extends AppCompatActivity {
         cAddress= findViewById(R.id.con_address);
         cNo= findViewById(R.id.con_phnNo);
         confirm= findViewById(R.id.confirm);
-        payment=findViewById(R.id.payment);
-
-
-        payment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent p = new Intent(confirmRent.this, Payment.class);
-                startActivity(p);
-
-            }
-        });
 
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,6 +98,8 @@ public class confirmRent extends AppCompatActivity {
                 }
             }
         });
+
+
 
     }
 }

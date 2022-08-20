@@ -143,7 +143,7 @@
 
             android:layout_marginTop="230dp"
             android:background="@drawable/custom_input"
-            android:hint="In RS"
+            android:hint="In TK"
             android:textSize="20dp" />
 
         <EditText
@@ -278,11 +278,9 @@
             app:title="POST A HOME"
             app:titleTextColor="#52bea4"
             android:background="@color/White"/>
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottom_navigation"
                 android:layout_width="match_parent"
@@ -302,6 +300,9 @@
         app:headerLayout="@layout/snpicturedesign"
         android:layout_gravity="start"/>
 
+
+
+    //Do not change any layout to here
 
 
 

@@ -10,23 +10,31 @@
 
     <string-array name="DivisionsString">
 
-        <item>Rajkot</item>
-        <item>Ahemdabad</item>
-        <item>Banglore</item>
-        <item>Pune</item>
-        <item>Keshod</item>
-        <item>Other</item>
-
+        <item>Barishal</item>
+        <item>Chittagong</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Rangpur</item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
 
     </string-array>
 
     <string-array name="DhakaDivisionsDistrictsString">
-        <item>Gondal</item>
-        <item>Jetpur</item>
-        <item>Kalawad</item>
-        <item>Vakaner</item>
-        <item>Other</item>
-
+        <item>Dhaka</item>
+        <item>Gazipur</item>
+        <item>Kishoreganj</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Tangail</item>
+        <item>Faridpur</item>
+        <item>Gopalganj</item>
+        <item>Madaripur</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
 
     </string-array>
     <string-array name="ChittagongDivisionsDistrictsString">
@@ -39,11 +47,10 @@
 
     </string-array>
     <string-array name="BarishalDivisionsDistrictsString">
-        <item>Gondal</item>
-        <item>Jetpur</item>
-        <item>Kalawad</item>
-        <item>Vakaner</item>
-        <item>Other</item>
+        <item>Barishal</item>
+        <item>Pirojpur</item>
+        <item>Jhalkathi</item>
+        <item>Patuakhali</item>
 
     </string-array>
     <string-array name="KhulnaDivisionsDistrictsString">
@@ -94,10 +101,14 @@
     </string-array>
 
     <string-array name="dhakaDisArea">
-        <item>RaceCourse</item>
-        <item>Kalawad Road</item>
-        <item>other</item>
-
+        <item>Mirpur</item>
+        <item>Dhanmondi</item>
+        <item>Farmgate</item>
+        <item>Mohammadpur</item>
+        <item>Badda</item>
+        <item>Banani</item>
+        <item>Rampura</item>
+        <item>Khilgaon</item>
     </string-array>
 
     <string-array name="gazipurDisArea">
@@ -128,8 +139,6 @@
 
     <string-array name="Room">
         <item>3</item>
-        <item>1</item>
-        <item>2</item>
         <item>5</item>
         <item>7</item>
 

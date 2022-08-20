@@ -138,12 +138,6 @@ public class HomePage extends AppCompatActivity {
                         startActivity(intent1);
 
                         break;
-
-                    case R.id.payrent:
-                        Intent intent9 = new Intent(HomePage.this, Payment.class);
-                        startActivity(intent9);
-
-                        break;
                     case R.id.notificationSN:
                         //Toast.makeText(getApplicationContext(), "Notifications will Open", Toast.LENGTH_LONG).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
