@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="send" type="id" />
+    <item name="amount_et" type="id" />
+    <item name="note" type="id" />
+    <item name="upi_id" type="id" />
+</resources>
