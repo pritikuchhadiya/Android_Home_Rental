@@ -25,7 +25,7 @@ import java.util.HashMap;
 
 public class confirmRent extends AppCompatActivity {
 
-    private EditText cName,cAddress,cNo;
+    private EditText cName,cAddress,cNo,caddhar,cnegotiation,ccurrentadd,cbuyrent;
     private ImageButton confirm;
     String saveCurrentDate;
     String saveCurrentTime;
@@ -40,6 +40,10 @@ public class confirmRent extends AppCompatActivity {
         cName=findViewById(R.id.con_Name);
         cAddress= findViewById(R.id.con_address);
         cNo= findViewById(R.id.con_phnNo);
+        caddhar=findViewById(R.id.con_addhar);
+        ccurrentadd=findViewById(R.id.con_currentadd);
+        cnegotiation=findViewById(R.id.con_Negotitation);
+        cbuyrent=findViewById(R.id.con_buyrent);
         confirm= findViewById(R.id.confirm);
 
         confirm.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +69,22 @@ public class confirmRent extends AppCompatActivity {
         {
             Toast.makeText(this, "Please provide your contact no", Toast.LENGTH_SHORT).show();
         }
+        else if (TextUtils.isEmpty(caddhar.getText().toString()))
+        {
+            Toast.makeText(this, "Please provide your Addhar no", Toast.LENGTH_SHORT).show();
+        }
+        else if (TextUtils.isEmpty(ccurrentadd.getText().toString()))
+        {
+            Toast.makeText(this, "Please provide your Current Address", Toast.LENGTH_SHORT).show();
+        }
+        else if (TextUtils.isEmpty(cnegotiation.getText().toString()))
+        {
+            Toast.makeText(this, "Please provide your Negotiable Price", Toast.LENGTH_SHORT).show();
+        }
+        else if (TextUtils.isEmpty(cbuyrent.getText().toString()))
+        {
+            Toast.makeText(this, "Do You Want To Buy or Rent This House", Toast.LENGTH_SHORT).show();
+        }
         else{
             confirmation();
         }
@@ -84,7 +104,12 @@ public class confirmRent extends AppCompatActivity {
         map.put("Name",cName.getText().toString());
         map.put("ContactNo",cNo.getText().toString());
         map.put("Address",cAddress.getText().toString());
-       // map.put("Publisher", FirebaseAuth.getInstance().getCurrentUser().getUid());
+        map.put("Addhar",caddhar.getText().toString());
+        map.put("Current Address",ccurrentadd.getText().toString());
+        map.put("Negotiation",cnegotiation.getText().toString());
+        map.put("Buy Rent",cbuyrent.getText().toString());
+
+        // map.put("Publisher", FirebaseAuth.getInstance().getCurrentUser().getUid());
         map. put("State","Not Rented yet");
 
         rentRef.child(mAuth.getCurrentUser().getUid()).setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
