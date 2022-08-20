@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable/custom_input.xml" value="0.1185" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_confirm_rent.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_home_details.xml" value="0.25" />
@@ -12,6 +14,18 @@
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_my_posts.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_notifications.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_pay_rent.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_post_a_home.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_search_results.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_trac_location.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/homes_in_feed_design.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/rent_list_layout.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/snpicturedesign.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/spinnerdisplay.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/spinnerdisplay1.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/menu/side_navigation.xml" value="0.25" />
       </map>
     </option>

@@ -53,12 +53,12 @@
             android:id="@+id/showBtn"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
             android:layout_marginTop="67dp"
             android:background="@color/White"
-            android:text="Show this home"
-            android:textColor="@color/Cyan"
             android:gravity="center"
-            android:layout_marginLeft="37dp"/>
+            android:text="Show this home"
+            android:textColor="@color/Cyan" />
 
 
     </RelativeLayout>
