@@ -13,22 +13,22 @@
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:background="@drawable/welcome"
-        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
     <ImageButton
         android:id="@+id/lgn"
-        android:layout_width="167dp"
-        android:layout_height="85dp"
+        android:layout_width="183dp"
+        android:layout_height="81dp"
         android:background="@color/White"
         android:scaleType="fitXY"
         android:src="@drawable/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.543" />
 
     <ImageButton
         android:id="@+id/reg"

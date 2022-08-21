@@ -14,25 +14,82 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Receipt"
+            android:exported="false"
+            android:label="Receipt"/>
+        <activity
             android:name=".PayRent"
-            android:exported="false" />
-        <activity android:name=".confirmRent" />
-        <activity android:name=".chnagePassword" />
-        <activity android:name=".HomeDetails" />
-        <activity android:name=".SearchResults" />
-        <activity android:name=".tracLocation" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".Settings" />
-        <activity android:name=".Notifications" />
-        <activity android:name=".MyPosts" />
-        <activity android:name=".HomePage" />
-        <activity android:name=".editProfile" />
-        <activity android:name=".PostAHome" />
-        <activity android:name=".search" />
-        <activity android:name=".Profile" />
-        <activity android:name=".Register" />
-        <activity android:name=".Login" />
-        <activity android:name=".MainActivity">
+            android:exported="false"
+            android:label="Payrent"/>
+        <activity
+            android:name=".confirmRent"
+            android:exported="false"
+            android:label="ConfirmRent"/>
+        <activity
+            android:name=".chnagePassword"
+            android:exported="false"
+            android:label="ChangePassword"/>
+        <activity
+            android:name=".HomeDetails"
+            android:exported="false"
+            android:label="HomeDetails"/>
+        <activity
+            android:name=".SearchResults"
+            android:exported="false"
+            android:label="SearchResults"/>
+        <activity
+            android:name=".tracLocation"
+            android:exported="false"
+            android:label="TraceLocation"/>
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:label="Aboutus"/>
+
+        <activity
+            android:name=".Settings"
+            android:exported="false"
+            android:label="Settings"/>
+        <activity
+            android:name=".Notifications"
+            android:exported="false"
+            android:label="Notification"/>
+        <activity
+            android:name=".MyPosts"
+            android:exported="false"
+            android:label="Myposts"/>
+        <activity
+            android:name=".HomePage"
+            android:exported="false"
+            android:label="HomePage"/>
+        <activity
+            android:name=".editProfile"
+            android:exported="false"
+            android:label="EditProfile"/>
+        <activity
+            android:name=".PostAHome"
+            android:exported="false"
+            android:label="Post a Home"/>
+        <activity
+            android:name=".search"
+            android:exported="false"
+            android:label="Search"/>
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:label="Profile"/>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="Register"/>
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:label="Login"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="HomePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

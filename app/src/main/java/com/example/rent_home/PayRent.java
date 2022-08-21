@@ -8,6 +8,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -30,7 +31,7 @@ public class PayRent extends AppCompatActivity {
         setContentView(R.layout.activity_pay_rent);
 
 
-                initializeViews();
+        initializeViews();
 
                 send.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -41,8 +42,11 @@ public class PayRent extends AppCompatActivity {
                         String name = nameEt.getText().toString();
                         String upiId = upiIdEt.getText().toString();
                         payUsingUpi(amount, upiId, name, note);
+
                     }
                 });
+
+
             }
 
             void initializeViews() {
@@ -78,6 +82,7 @@ public class PayRent extends AppCompatActivity {
                 }
 
             }
+
 
             @Override
             protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -159,8 +164,7 @@ public class PayRent extends AppCompatActivity {
                     }
                 }
                 return false;
+
             }
         }
 
-    }
-}
