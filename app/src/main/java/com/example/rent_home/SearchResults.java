@@ -34,10 +34,6 @@ public class SearchResults extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
          point = bundle.getString("message");
-      //  TextView txtView = (TextView) findViewById(R.id.);
-
-        //Log.d("Searcg",point);
-       // txtView.setText(message);
 
         recyclerView =findViewById(R.id.recycler_menu2);
         recyclerView.setHasFixedSize(true);
@@ -74,9 +70,7 @@ public class SearchResults extends AppCompatActivity {
                         startActivity(intent);
                     }
                 });
-
             }
-
             @NonNull
             @Override
             public HomesInFeed onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
