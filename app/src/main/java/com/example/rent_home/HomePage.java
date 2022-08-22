@@ -44,12 +44,11 @@ public class HomePage extends AppCompatActivity {
     ActionBarDrawerToggle toggle;
     DrawerLayout drawerLayout;
     FirebaseAuth mAuth;
-//iuiohrgegt
     private DatabaseReference HomeRef;
     private RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
 
-
+//jfidjf
     CircleImageView SNpropic;
 
     private FirebaseAuth auth;
