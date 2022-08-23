@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable-v24/ic_baseline_info_24.xml" value="0.1415" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable-v24/ic_baseline_person_outline_24.xml" value="0.1415" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1185" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable/backgroud_header.xml" value="0.1185" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable/background.xml" value="0.1185" />
@@ -10,6 +12,7 @@
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable/ic_post_add.xml" value="0.1185" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/drawable/ic_search.xml" value="0.1185" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_about_us.xml" value="0.25" />
+        <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_chnage_password.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_confirm_rent.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
         <entry key="..\:/androidproject/Android_home_rental/app/src/main/res/layout/activity_home_details.xml" value="0.25" />
