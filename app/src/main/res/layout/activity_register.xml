@@ -96,6 +96,6 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="540dp"
         android:hint="Already have an account? Login here"
-        android:textSize="17sp"/>
+        android:textSize="17sp" />
 
 </RelativeLayout>
