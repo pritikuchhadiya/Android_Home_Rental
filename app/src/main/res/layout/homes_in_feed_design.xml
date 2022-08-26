@@ -8,7 +8,7 @@
     android:layout_marginStart="15dp"
     android:layout_marginEnd="15dp"
     android:backgroundTint="#FFDCAE"
-    app:cardElevation="15dp">
+    app:cardElevation="20sp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,8 +30,9 @@
             android:layout_marginStart="230dp"
             android:layout_marginTop="25dp"
             android:layout_marginEnd="10dp"
+            android:textColor="#000000"
             android:text="Apartment Name"
-            android:textSize="15sp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
         <TextView
@@ -41,9 +42,9 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="60dp"
             android:layout_marginStart="235dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="20dp"
             android:text="Local Area Name"
-            android:textSize="12sp"
+            android:textSize="15sp"
             />
 
         <TextView
@@ -57,7 +58,7 @@
             android:layout_marginEnd="10dp"
 
             android:text="Room(s)"
-            android:textSize="12sp"
+            android:textSize="15sp"
             />
 
         <TextView
@@ -67,10 +68,10 @@
             android:layout_alignParentTop="true"
 
             android:layout_marginTop="85dp"
-            android:layout_marginEnd="75dp"
-            android:layout_marginStart="290dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginStart="300dp"
             android:text="0"
-            android:textSize="12sp" />
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/textView20"
@@ -81,7 +82,7 @@
             android:layout_marginStart="235dp"
             android:layout_marginTop="110dp"
             android:text="Rent"
-            android:textSize="12sp"/>
+            android:textSize="15sp"/>
 
         <TextView
             android:id="@+id/HIFrent"
