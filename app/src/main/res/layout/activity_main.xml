@@ -1,52 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="#00ffffff"
+        android:src="@drawable/image" />
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
-        android:background="@drawable/welcome"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="54dp" />
-
-    <ImageButton
-        android:id="@+id/reg"
-        android:layout_width="247dp"
-        android:layout_height="107dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:background="@color/White"
-        android:src="@drawable/signup"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.708" />
+        android:layout_width="264dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="80sp"
+        android:layout_gravity="center"
+        android:src="@drawable/welcom" />
 
     <ImageButton
         android:id="@+id/lgn"
-        android:layout_width="266dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="40dp"
-        android:background="@color/White"
-        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="#00ffffff"
         android:src="@drawable/login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/reg"
+        android:layout_width="248dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="55sp"
+        android:backgroundTint="#00ffffff"
+        android:src="@drawable/register"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginStart="100sp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="Tired of Searching Home door to door?"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_marginStart="150sp"
+        android:textSize="15sp"
+        android:text="Just TAP and sit back!!!!"
+        android:textStyle="bold"
+        android:textColor="#000000"
+      />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

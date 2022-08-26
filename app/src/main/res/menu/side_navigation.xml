@@ -12,6 +12,7 @@
     <item
         android:id="@+id/notificationSN"
         android:title="NOTIFICATIONS"
+        
         />
     <item
         android:id="@+id/payrent"

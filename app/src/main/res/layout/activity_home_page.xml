@@ -12,17 +12,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="50dp"
         android:layout_marginBottom="50dp"
         >
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
             android:id="@+id/recycler_menu1"/>
+
     </RelativeLayout>
-    //Do not change any layout from here
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -33,9 +31,11 @@
                 app:title="HOME"
                 app:titleTextColor="#52bea4"
                 android:background="@color/White"/>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <com.google.android.material.bottomnavigation.BottomNavigationView
                     android:id="@+id/bottom_navigation"
                     android:layout_width="match_parent"
@@ -46,17 +46,15 @@
                     app:itemTextColor="@drawable/selector"
                     app:menu="@menu/menu_navigation" />
             </RelativeLayout>
+
         </RelativeLayout>
         <com.google.android.material.navigation.NavigationView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/sidenavmenu"
             app:menu="@menu/side_navigation"
+            android:backgroundTint="#DBDFFD"
             app:headerLayout="@layout/snpicturedesign"
             android:layout_gravity="start"/>
-    //Do not change any layout to here
-
-
-
 
 </androidx.drawerlayout.widget.DrawerLayout>
